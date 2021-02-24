@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin-top: 50px;
+    height: 100%;
+    background-color: rgb(219, 170, 170);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(43, 39, 35);
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.input_div .input{
+    padding: 15px;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    background-color: rgb(220, 233, 233);
+    margin-top: 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border:none;
+}
+.addButton{
+    height:30px;
+    width:40px;
+    margin-top:15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(166, 216, 166);
+    cursor: pointer;
+}
+.addButton:hover{
+    background-color: rgb(51, 170, 130);
+}
+.input:hover{
+    background-color: white;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.item{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 3px solid rgb(121, 118, 118);
+
+}
+.item_input{
+    background: none;
+    outline: none;
+    color:rgb(0, 0, 0);
+    border:none;
+    width:290px;
+    height:30px;
+    font-size: larger;
+}
+.removeButton{
+    height:30px;
+    width:40px;
+    margin:0px;
+    background:none;
+    color:red;
+    border:none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.checklist{
+    text-decoration: line-through 1px solid rgb(17, 19, 13);
+    color: rgb(32, 97, 37);
+}
